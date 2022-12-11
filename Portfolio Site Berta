@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">    
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Berta" content="Berta">
+    <title>Berta UX/UI Designer Madrid</title>
+  </head>
+  <body>
+    <header>
+    <div>
+        <img>src="https://via.placeholder.com/150" alt="Berta Bonastre">
+        <nav>
+            <a href="#">Work</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    </header>
+    <div>
+    <div>
+        <h1><b>Hi! I’m Berta, a UX Designer based in Madrid.</b></h1>
+    </div>
+    <div>
+        <p>I build fun and impactful digital products to make users thrive. With a background in tech sales, I specialise in aligning user- centred principles with business objectives.</p>
+    </div>
+    </div>
+    <div>
+    <div>
+        <p>SharpenUp helps professionals explore different career paths by speed dating experts in them. SharpenUp is a native mobile app. My role in this project was as a UX researcher, UX Designer and UI Designer, and the project took 9 months to complete.</p>
+    </div>
+    </div>
+    <footer>
+        <div></div>
+    </footer>
+</body>
+</html>
