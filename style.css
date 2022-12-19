@@ -11,15 +11,28 @@ Typography used: Libre Franklin
 */
 
 body {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 200
-  }
+  font-family:'Libre Franklin', sans-serif;
+  font-size: 16px;
+  color: #333333;
+  background-color: aquamarine;
+}
 h1 {
-    font-weight: 500;
-  }
+  font-weight: 500;
+  font-size: 2.75em;
+}
 h2 {
-    font-weight: 300;
-  }
+  font-weight: 300;
+  font-size: 2.25em;
+}
+h3 {
+  font-weight: 200;
+  font-size: 1.75em;
+}
 p  {
-    font-weight: 100;
-  }
+  font-weight: 100;
+  font-size: 1.35em;
+}
+ul {
+  font-weight: 100;
+  font-size: 1.35em;
+}
