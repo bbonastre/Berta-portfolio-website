@@ -1,0 +1,25 @@
+/*
+Colors used:
+Primary Color (Grey): ##EEF1F1;
+Primary Color (Dark Grey): #333333
+Primary color (blue): #4A64EB
+
+Secondary Color (Yellow): #F8C762;
+Secondary Color (White): #FFFFFF
+
+Typography used: Libre Franklin
+*/
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 200
+  }
+h1 {
+    font-weight: 500;
+  }
+h2 {
+    font-weight: 300;
+  }
+p  {
+    font-weight: 100;
+  }
