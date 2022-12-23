@@ -11,8 +11,8 @@ Typography used: Libre Franklin
 header {
     font-family: 'Libre Franklin', sans-serif;
   }
-
   body {
+    style="background-color:#EEF1F1;">
     font-family:'Libre Franklin', sans-serif;
     font-size: 16px;
     color: #333333;
