@@ -37,3 +37,17 @@ header {
     font-weight: 100;
     font-size: 1.35em;
   }
+  a {
+    color: #333333;
+    text-decoration: none; /* No underlining */
+  }
+  a:visited { /* visited link */
+    color: #897c7c;
+  }
+  a:hover {
+    color: #F8C762;
+    text-decoration: underline; /* Underlining when hovering over a link */
+  }
+  a:active { /* selected link */
+    color: #a9a59c;
+  }
