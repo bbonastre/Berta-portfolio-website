@@ -1,6 +1,6 @@
 /*
 Colors used:
-Primary Color (Grey): ##EEF1F1;
+Primary Color (Grey): #EEF1F1;
 Primary Color (Dark Grey): #333333
 Secondary Color (Blue): #4A64EB
 Secondary Color (Yellow): #F8C762;
@@ -76,4 +76,10 @@ Typography used: Libre Franklin
   .button:active {
     color: #95938d;
   }
-  
+  footer {
+    display:block
+    max-width: 50%;
+  }
+  .intro {
+    color: #ffffff;
+}
