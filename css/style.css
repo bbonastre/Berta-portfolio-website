@@ -5,15 +5,21 @@ Primary Color (Dark Grey): #333333
 Secondary Color (Blue): #4A64EB
 Secondary Color (Yellow): #F8C762;
 Secondary Color (White): #FFFFFF
-
 Typography used: Libre Franklin
 */
+/* Layout styling */
 
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding: 0 15px;
+}
   header {
     background-color: #333333;
     font-family: 'Libre Franklin', sans-serif;
     padding: 10px;
-    margin: 8px;
+    margin: 10px;
   }
   body {
     font-family:'Libre Franklin', sans-serif;
@@ -77,8 +83,7 @@ Typography used: Libre Franklin
     color: #95938d;
   }
   footer {
-    display:block
-    max-width: 50%;
+
   }
   .intro {
     color: #ffffff;
