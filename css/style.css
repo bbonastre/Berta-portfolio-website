@@ -43,7 +43,7 @@ Typography used: Libre Franklin
     text-decoration: none; /* No underlining */
   }
   a:visited { /* visited link */
-    color: #897c7c;
+    color: #c9c3c3;
   }
   a:hover,
   a:focus {
@@ -56,7 +56,6 @@ Typography used: Libre Franklin
   }
 
 
-
   .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
     background-color: #4A64EB;
@@ -67,5 +66,11 @@ Typography used: Libre Franklin
     border-bottom: 2px solid #2d45bd; /* width of the border, type, color */
     transition: 0.2s opacity;
   }
-
+  .button:hover {
+    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    text-decoration: underline;
+  }
+  .button:active {
+    color: #95938d;
+  }
   
