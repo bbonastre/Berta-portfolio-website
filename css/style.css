@@ -18,12 +18,13 @@ Typography used: Libre Franklin
   header {
     background-color: #333333;
     font-family: 'Libre Franklin', sans-serif;
-    padding: 10px;
+    text-align: center;
+    padding: 10px 0;
     margin: 10px;
   }
   body {
     font-family:'Libre Franklin', sans-serif;
-    style="background-color:#EEF1F1;">
+    style="background-color:#EEF1F1;"
     font-size: 16px;
     color: #333333;
   }
@@ -86,9 +87,17 @@ Typography used: Libre Franklin
   .button:active {
     color: #95938d;
   }
-  footer {
-
-  }
   .intro {
     color: #ffffff;
+}
+.logo {
+  max-width: 250px;
+}
+nav > ul > li {
+  display: inline-block;
+  padding: 0 15px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0 15px;
 }
