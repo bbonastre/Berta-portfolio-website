@@ -8,12 +8,12 @@ Secondary Color (White): #FFFFFF
 Typography used: Libre Franklin
 */
 
-header {
+  header {
     font-family: 'Libre Franklin', sans-serif;
   }
   body {
-    style="background-color:#EEF1F1;">
     font-family:'Libre Franklin', sans-serif;
+    style="background-color:#EEF1F1;">
     font-size: 16px;
     color: #333333;
   }
@@ -44,10 +44,15 @@ header {
   a:visited { /* visited link */
     color: #897c7c;
   }
-  a:hover {
+  a:hover,
+  a:focus {
     color: #F8C762;
-    text-decoration: underline; /* Underlining when hovering over a link */
+    text-decoration: underline;
   }
+  /* Underlining when hovering over a link */
   a:active { /* selected link */
     color: #a9a59c;
   }
+
+
+  
