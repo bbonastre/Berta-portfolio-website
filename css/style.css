@@ -21,6 +21,7 @@ Typography used: Libre Franklin
     text-align: center;
     padding: 10px 0;
     margin: 10px;
+    position:relative;
   }
   body {
     font-family:'Libre Franklin', sans-serif;
@@ -34,6 +35,8 @@ Typography used: Libre Franklin
   }
   #hero h1 {
     text-align: center; /* Centers text */
+    margin: 0;
+    padding:0.67em 0;
   }
   h2 {
     font-weight: 300;
