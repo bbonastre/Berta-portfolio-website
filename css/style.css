@@ -55,7 +55,7 @@ Typography used: Libre Franklin
     font-size: 1.35em;
   }
   a {
-    color: #333333;
+    color: #7181d4;
     text-decoration: none; /* No underlining */
   }
   a:visited { /* visited link */
@@ -94,7 +94,7 @@ Typography used: Libre Franklin
     color: #ffffff;
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 nav > ul > li {
   display: inline-block;
@@ -106,5 +106,13 @@ nav > ul {
 }
 #icon {
   display: inline-block;
-  width: 10%;
+  width: 2.5%;
+}
+#sharpenup {
+  display: inline-block;
+  width: 50%;
+}
+#me {
+  display: block;
+  width: 40%;
 }
