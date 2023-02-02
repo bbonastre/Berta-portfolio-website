@@ -23,9 +23,13 @@ Typography used: Libre Franklin
     position:relative;
     background-color: #333333;
   }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+  }
   body {
     font-family:'Libre Franklin', sans-serif;
-    style="background-color:#EEF1F1;"
+    background-color:#EEF1F1;
     font-size: 18px;
     color: #333333;
   }
