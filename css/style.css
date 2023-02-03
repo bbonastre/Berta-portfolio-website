@@ -110,9 +110,8 @@ Typography used: Libre Franklin
   max-width: 150px;
   width: auto;
 }
-nav > ul > li {
-  display: inline-block;
-  padding: 0 15px;
+.navtoggle li:not(:last-child) {
+  display: none;
 }
 nav > ul {
   list-style-type: none;
@@ -143,6 +142,10 @@ nav > ul {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 641px) {
+  nav > ul > li {
+    display: inline-block;
+    padding: 0 15px;
+  }
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -159,6 +162,12 @@ Medium devices (640px and larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
   }
 }
 /* ==============================
