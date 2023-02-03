@@ -110,12 +110,10 @@ Typography used: Libre Franklin
   max-width: 150px;
   width: auto;
 }
-.navtoggle li:not(:last-child) {
-  display: none;
-}
 nav > ul {
   list-style-type: none;
   padding: 0 15px;
+  margin: 0;
 }
 #icon {
   display: inline-block;
@@ -138,6 +136,9 @@ nav > ul {
   clear: both;
   display: table;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
@@ -146,6 +147,25 @@ nav > ul {
   right: 0;
   top: 2px;
   font-size: 20px;
+  padding-right: 0;
+}
+main {
+  padding-top: 56px;
+}
+.navtoggle.responsive li  {
+  display: block;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 /* ==============================
 Medium devices (640px and larger)
@@ -177,6 +197,9 @@ Medium devices (640px and larger)
   }
   .navtoggle li:last-child {
     display: none;
+  }
+  nav > ul {
+    margin: 1em 0;
   }
 }
 /* ==============================
