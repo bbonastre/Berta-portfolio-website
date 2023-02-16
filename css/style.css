@@ -11,6 +11,7 @@ Typography used: Libre Franklin
 
 * {
   box-sizing: border-box;
+   
 }
 .container {
   padding: 0 15px;
@@ -101,7 +102,7 @@ Typography used: Libre Franklin
     text-decoration: underline;
   }
   .button:active {
-    color: #95938d;
+    color: #F6F6F5;
   }
   .intro {
     color: #ffffff;
